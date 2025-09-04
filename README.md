@@ -45,7 +45,7 @@ pip install django django-cors-headers graphene_django
 
 # Run migrations and start server
 python manage.py migrate
-python manage.py runserver
+python manage.py runserver 8001
 ```
 
 #### Solution 2: Reinstall Python with SQLite3 Support (Long-term fix)
